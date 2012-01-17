@@ -207,6 +207,10 @@ public class AntContext implements ElementSink {
 	public <T extends AntParams> T getAntParams() {
 		return (T) params;
 	}
+	
+	public void setAntParams(AntParams params) {
+		this.params = params;
+	}
 
 	/**
 	 * Get the policy used for the ants population.
